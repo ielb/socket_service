@@ -1,0 +1,20 @@
+{
+  "name": "nedlandphone",
+  "version": "1.0.0",
+  "description": "this is the socket server that will be going to recieve data from the user and send it back to the recieptient and the laravel server to store data ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "node server.js"
+  },
+  "author": "issam elbouhati",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mysql2": "^2.2.5",
+    "socket.io": "^3.0.0"
+  }
+}
